@@ -156,7 +156,7 @@ public class Controller {
                 inputButton.getScene().getWindow().hide();
                 //отображаем нужное окно
                 FXMLLoader loader = new FXMLLoader();
-                loader.setLocation(getClass().getResource("appStudeent.fxml"));
+                loader.setLocation(getClass().getResource("appClient.fxml"));
 
                 try {
                     loader.load();
