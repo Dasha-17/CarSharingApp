@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #f1faee;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.app.Controller">
+   <children>
+      <AnchorPane layoutY="84.0" prefHeight="318.0" prefWidth="700.0" style="-fx-background-color: a8dadc; -fx-effect: 00279c;">
+         <children>
+            <TextField fx:id="loginField" layoutX="195.0" layoutY="69.0" prefHeight="26.0" prefWidth="310.0" promptText="Логин" style="-fx-border-color: #808080; -fx-border-radius: 10; -fx-background-radius: 10;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+               <effect>
+                  <Glow level="0.0" />
+               </effect>
+            </TextField>
+            <TextField fx:id="passField" layoutX="195.0" layoutY="119.0" prefHeight="26.0" prefWidth="310.0" promptText="Пароль" style="-fx-border-color: #808080; -fx-border-radius: 10; -fx-background-radius: 10;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+               <effect>
+                  <Glow level="0.0" />
+               </effect>
+            </TextField>
+            <RadioButton fx:id="Pr" layoutX="184.0" layoutY="187.0" mnemonicParsing="false" text="Администратор" textFill="#1d3557">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="St" layoutX="401.0" layoutY="187.0" mnemonicParsing="false" text="Клиент" textFill="#1d3557">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </RadioButton>
+            <Button fx:id="inputButton" layoutX="287.0" layoutY="234.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="125.0" style="-fx-background-color: #457b9d; -fx-border-color: #2c2c2c; -fx-border-radius: 10; -fx-background-radius: 10;" text="Войти" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Button>
+            <Label fx:id="LableNewTest" layoutX="269.0" layoutY="14.0" text="Авторизация" textFill="#1d3557">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="carrr" fitHeight="67.0" fitWidth="106.0" layoutX="61.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../OneDrive/Рабочий%20стол/pngwing.com.png" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+      <Label layoutX="24.0" layoutY="14.0" text="CARSH" textAlignment="CENTER" textFill="#e63946">
+         <font>
+            <Font name="Forte" size="50.0" />
+         </font>
+      </Label>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Button fx:id="RegButton1" layoutX="450.0" layoutY="25.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="217.0" style="-fx-background-color: #457b9d; -fx-border-color: #2c2c2c; -fx-background-radius: 10; -fx-border-radius: 10;" text="Зарегестрироваться" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="84.0" fitWidth="83.0" layoutX="194.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Downloads/pngwing.com.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
